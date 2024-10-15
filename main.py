@@ -411,7 +411,6 @@ with tabs[1]:
                 # Display the chart in Streamlit
                 st.plotly_chart(fig, use_container_width=True, key="daily_grouped_bar")
 
-
 with tabs[2]:
     st.header("Weekly Dashboard")
     selected_week = st.number_input("Select Week Number for Weekly Report:", min_value=1, max_value=52, step=1)
